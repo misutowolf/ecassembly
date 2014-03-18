@@ -1,0 +1,153 @@
+/*
+
+Theme Name: ECA
+Theme URI: http://eastcoastassembly.com/
+Description: WordPress theme for East Coast Assembly.
+Author: Charles "MisutoWolf" Baker
+Author URI: http://misutowolf.net/
+Version: 1.0
+Tags: light, minimalistic, contrast, sharp
+
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("img/brickwall.png");
+	font-family: 'Open Sans', serif;
+}
+
+.header-img {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.page-container {
+	background-color: white;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.page-splash img {
+	border: 1px solid black;
+}
+
+.page-main {
+	padding-top: 10px;
+}
+
+.header-right {
+    text-align: right;
+    padding-top: 10px;
+    color: black;
+}
+
+.header-right a {
+    color: black;
+}
+
+.header-right a:hover {
+    color: orange;
+}
+
+.navmenu {
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+
+.navmenu a {
+	color: white;
+	display: inline-block;
+	font-family: 'Roboto Slab', serif;
+	background-color: black;
+	padding: 4px 10px;
+
+	/*
+	font-variant: small-caps;
+	font-weight: bold;
+	*/
+}
+
+.navmenu a:hover {
+	background-color: orange;
+	text-decoration: none;
+}
+
+.navmenu ul {
+    padding: 2px;
+    text-align: right;
+}
+
+.navmenu li {
+    display: inline;
+    list-style-type: none;
+}
+
+.footer-block {
+	background-color: #d3d3d3;
+	color: #666666;
+	margin-top: 50px;
+	margin-bottom: 15px;
+	padding: 5px 10px;
+	font-size: x-small;
+}
+
+.footer-mid {
+	text-align: center;
+}
+
+.footer-right {
+	text-align: right;
+}
+
+.sidebar-box {
+	border: 1px solid black;
+	margin-bottom: 10px;
+}
+
+.sidebar-box-content {
+	padding: 10px;
+}
+
+.sidebar-box-content label {
+	font-size: x-small;
+}
+
+.sidebar-box-title {
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	padding: 5px;
+}
+
+.sidebar-compare-box {
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid black;
+}
+
+.btn-sidebar {
+	margin-top: 10px;
+}
+
+#theSavings {
+	color: green;
+}
+
+#theirCost {
+	color: red;
+}
+
+.content-container {
+	font-size: large;
+}
+
+.contact-form {
+	padding-top: 20px;
+}
