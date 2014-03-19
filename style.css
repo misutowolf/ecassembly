@@ -151,3 +151,13 @@ body {
 .contact-form {
 	padding-top: 20px;
 }
+
+.logo-title {
+	font-size: x-large;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.logo-cell {
+	text-align: center;
+}
